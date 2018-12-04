@@ -19,8 +19,7 @@ minetest.register_node('alphabet:a', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "a"
 })
 minetest.register_craft({
@@ -41,8 +40,7 @@ minetest.register_node('alphabet:b', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "b"
 })
 minetest.register_craft({
@@ -62,8 +60,7 @@ minetest.register_node('alphabet:c', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "c"
 })
 minetest.register_craft({
@@ -84,8 +81,7 @@ minetest.register_node('alphabet:d', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "d"
 })
 minetest.register_craft({
@@ -105,8 +101,7 @@ minetest.register_node('alphabet:e', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "e"
 })
 minetest.register_craft({
@@ -126,8 +121,7 @@ minetest.register_node('alphabet:f', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "f"
 })
 minetest.register_craft({
@@ -147,8 +141,7 @@ minetest.register_node('alphabet:g', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "g"
 })
 minetest.register_craft({
@@ -168,8 +161,7 @@ minetest.register_node('alphabet:h', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "h"
 })
 minetest.register_craft({
@@ -189,8 +181,7 @@ minetest.register_node('alphabet:i', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "i"
 })
 minetest.register_craft({
@@ -210,8 +201,7 @@ minetest.register_node('alphabet:j', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "j"
 })
 minetest.register_craft({
@@ -231,8 +221,7 @@ minetest.register_node('alphabet:k', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "k"
 })
 minetest.register_craft({
@@ -253,8 +242,7 @@ minetest.register_node('alphabet:l', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "l"
 })
 minetest.register_craft({
@@ -275,8 +263,7 @@ minetest.register_node('alphabet:m', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "m"
 })
 minetest.register_craft({
@@ -297,8 +284,7 @@ minetest.register_node('alphabet:n', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "n"
 })
 minetest.register_craft({
@@ -319,8 +305,7 @@ minetest.register_node('alphabet:o', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "o"
 })
 minetest.register_craft({
@@ -341,8 +326,7 @@ minetest.register_node('alphabet:p', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "p"
 })
 minetest.register_craft({
@@ -363,8 +347,7 @@ minetest.register_node('alphabet:q', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "q"
 })
 minetest.register_craft({
@@ -385,8 +368,7 @@ minetest.register_node('alphabet:r', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "r"
 })
 minetest.register_craft({
@@ -407,8 +389,7 @@ minetest.register_node('alphabet:s', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "s"
 })
 minetest.register_craft({
@@ -429,8 +410,7 @@ minetest.register_node('alphabet:t', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "t"
 })
 minetest.register_craft({
@@ -451,8 +431,7 @@ minetest.register_node('alphabet:u', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "u"
 })
 minetest.register_craft({
@@ -473,8 +452,7 @@ minetest.register_node('alphabet:v', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "v"
 })
 minetest.register_craft({
@@ -495,8 +473,7 @@ minetest.register_node('alphabet:w', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "w"
 })
 minetest.register_craft({
@@ -517,8 +494,7 @@ minetest.register_node('alphabet:x', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "x"
 })
 minetest.register_craft({
@@ -539,8 +515,7 @@ minetest.register_node('alphabet:y', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "y"
 })
 minetest.register_craft({
@@ -561,8 +536,7 @@ minetest.register_node('alphabet:z', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "z"
 })
 minetest.register_craft({
@@ -584,8 +558,7 @@ minetest.register_node('alphabet:A', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "A"
 })
 minetest.register_craft({
@@ -606,8 +579,7 @@ minetest.register_node('alphabet:B', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "B"
 })
 minetest.register_craft({
@@ -628,8 +600,7 @@ minetest.register_node('alphabet:C', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "C"
 })
 minetest.register_craft({
@@ -649,8 +620,7 @@ minetest.register_node('alphabet:D', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "D"
 })
 minetest.register_craft({
@@ -670,8 +640,7 @@ minetest.register_node('alphabet:E', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "E"
 })
 minetest.register_craft({
@@ -691,8 +660,7 @@ minetest.register_node('alphabet:F', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "F"
 })
 minetest.register_craft({
@@ -712,8 +680,7 @@ minetest.register_node('alphabet:G', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "G"
 })
 minetest.register_craft({
@@ -733,8 +700,7 @@ minetest.register_node('alphabet:H', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "H"
 })
 minetest.register_craft({
@@ -754,8 +720,7 @@ minetest.register_node('alphabet:I', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "I"
 })
 minetest.register_craft({
@@ -775,8 +740,7 @@ minetest.register_node('alphabet:J', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "J"
 })
 minetest.register_craft({
@@ -796,8 +760,7 @@ minetest.register_node('alphabet:K', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "K"
 })
 minetest.register_craft({
@@ -818,8 +781,7 @@ minetest.register_node('alphabet:L', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "L"
 })
 minetest.register_craft({
@@ -840,8 +802,7 @@ minetest.register_node('alphabet:M', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "M"
 })
 minetest.register_craft({
@@ -862,8 +823,7 @@ minetest.register_node('alphabet:N', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "N"
 })
 minetest.register_craft({
@@ -884,8 +844,7 @@ minetest.register_node('alphabet:O', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "O"
 })
 minetest.register_craft({
@@ -906,8 +865,7 @@ minetest.register_node('alphabet:P', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "P"
 })
 minetest.register_craft({
@@ -928,8 +886,7 @@ minetest.register_node('alphabet:Q', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Q"
 })
 minetest.register_craft({
@@ -950,8 +907,7 @@ minetest.register_node('alphabet:R', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "R"
 })
 minetest.register_craft({
@@ -972,8 +928,7 @@ minetest.register_node('alphabet:S', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "S"
 })
 minetest.register_craft({
@@ -994,8 +949,7 @@ minetest.register_node('alphabet:T', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "T"
 })
 minetest.register_craft({
@@ -1017,8 +971,7 @@ minetest.register_node('alphabet:U', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "U"
 })
 minetest.register_craft({
@@ -1039,8 +992,7 @@ minetest.register_node('alphabet:V', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "V"
 })
 minetest.register_craft({
@@ -1061,8 +1013,7 @@ minetest.register_node('alphabet:W', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "W"
 })
 minetest.register_craft({
@@ -1083,8 +1034,7 @@ minetest.register_node('alphabet:X', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "X"
 })
 minetest.register_craft({
@@ -1105,8 +1055,7 @@ minetest.register_node('alphabet:Y', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Y"
 })
 minetest.register_craft({
@@ -1127,8 +1076,7 @@ minetest.register_node('alphabet:Z', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Z"
 })
 minetest.register_craft({
@@ -1150,8 +1098,7 @@ minetest.register_node('alphabet:space', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Space"
 })
 minetest.register_craft({
@@ -1173,8 +1120,7 @@ minetest.register_node('alphabet:1', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "1"
 })
 minetest.register_craft({
@@ -1196,8 +1142,7 @@ minetest.register_node('alphabet:2', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "2"
 })
 minetest.register_craft({
@@ -1218,8 +1163,7 @@ minetest.register_node('alphabet:3', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "3"
 })
 minetest.register_craft({
@@ -1241,8 +1185,7 @@ minetest.register_node('alphabet:4', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "4"
 })
 minetest.register_craft({
@@ -1263,8 +1206,7 @@ minetest.register_node('alphabet:5', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "5"
 })
 minetest.register_craft({
@@ -1285,8 +1227,7 @@ minetest.register_node('alphabet:6', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "6"
 })
 minetest.register_craft({
@@ -1307,8 +1248,7 @@ minetest.register_node('alphabet:7', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "7"
 })
 minetest.register_craft({
@@ -1329,8 +1269,7 @@ minetest.register_node('alphabet:8', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "8"
 })
 minetest.register_craft({
@@ -1351,8 +1290,7 @@ minetest.register_node('alphabet:9', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "9"
 })
 minetest.register_craft({
@@ -1373,8 +1311,7 @@ minetest.register_node('alphabet:0', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "j"
 })
 minetest.register_craft({
@@ -1396,8 +1333,7 @@ minetest.register_node('alphabet:s1', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Exclamation mark"
 })
 minetest.register_craft({
@@ -1418,8 +1354,7 @@ minetest.register_node('alphabet:s2', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "At"
 })
 minetest.register_craft({
@@ -1440,8 +1375,7 @@ minetest.register_node('alphabet:s3', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Number sign"
 })
 minetest.register_craft({
@@ -1463,8 +1397,7 @@ minetest.register_node('alphabet:s4', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Dollar"
 })
 minetest.register_craft({
@@ -1485,8 +1418,7 @@ minetest.register_node('alphabet:s5', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Percent"
 })
 minetest.register_craft({
@@ -1507,8 +1439,7 @@ minetest.register_node('alphabet:s6', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Caret"
 })
 minetest.register_craft({
@@ -1529,8 +1460,7 @@ minetest.register_node('alphabet:s7', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Ampersand"
 })
 minetest.register_craft({
@@ -1551,8 +1481,7 @@ minetest.register_node('alphabet:s8', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Asterisk"
 })
 minetest.register_craft({
@@ -1573,8 +1502,7 @@ minetest.register_node('alphabet:s9', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "("
 })
 minetest.register_craft({
@@ -1595,8 +1523,7 @@ minetest.register_node('alphabet:s0', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = ")"
 })
 minetest.register_craft({
@@ -1617,8 +1544,7 @@ minetest.register_node('alphabet:apos', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Apostrophe"
 })
 minetest.register_craft({
@@ -1639,8 +1565,7 @@ minetest.register_node('alphabet:bslash', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Back Slash"
 })
 minetest.register_craft({
@@ -1661,8 +1586,7 @@ minetest.register_node('alphabet:colon', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Colon"
 })
 minetest.register_craft({
@@ -1683,8 +1607,7 @@ minetest.register_node('alphabet:comma', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Comma"
 })
 minetest.register_craft({
@@ -1705,8 +1628,7 @@ minetest.register_node('alphabet:equal', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Equals sign"
 })
 minetest.register_craft({
@@ -1727,8 +1649,7 @@ minetest.register_node('alphabet:minus', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Minus"
 })
 minetest.register_craft({
@@ -1749,8 +1670,7 @@ minetest.register_node('alphabet:plus', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Plus"
 })
 minetest.register_craft({
@@ -1771,8 +1691,7 @@ minetest.register_node('alphabet:quest', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Question mark"
 })
 minetest.register_craft({
@@ -1793,8 +1712,7 @@ minetest.register_node('alphabet:quo', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Quotation mark"
 })
 minetest.register_craft({
@@ -1815,8 +1733,7 @@ minetest.register_node('alphabet:slash', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Slash"
 })
 minetest.register_craft({
@@ -1837,8 +1754,7 @@ minetest.register_node('alphabet:under', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Underscore"
 })
 minetest.register_craft({
@@ -1859,8 +1775,7 @@ minetest.register_node('alphabet:dot', {
 	climbable = false,
 	diggable = true,
 	drawtype = "nodebox",
-	groups = { choppy = 3, oddly_breakable_by_hand = 1},
-	material = minetest.digprop_constanttime(1.0),
+	groups = { dig_immediate = 1, oddly_breakable_by_hand = 1},
 	description = "Dot"
 })
 minetest.register_craft({
