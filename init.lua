@@ -11,7 +11,7 @@
 --Lower case
 -- a
 minetest.register_node('alphabet:a', {
-	tile_images = {'a.png'},
+	tiles = {'a.png'},
 	inventory_image = 'a.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -32,7 +32,7 @@ minetest.register_craft({
 })
 -- b
 minetest.register_node('alphabet:b', {
-	tile_images = {'b.png'},
+	tiles = {'b.png'},
 	inventory_image = 'b.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -52,7 +52,7 @@ minetest.register_craft({
 })
 -- c
 minetest.register_node('alphabet:c', {
-	tile_images = {'c.png'},
+	tiles = {'c.png'},
 	inventory_image = 'c.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -73,7 +73,7 @@ minetest.register_craft({
 })
 --d
 minetest.register_node('alphabet:d', {
-	tile_images = {'d.png'},
+	tiles = {'d.png'},
 	inventory_image = 'd.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -93,7 +93,7 @@ minetest.register_craft({
 })
 --e
 minetest.register_node('alphabet:e', {
-	tile_images = {'e.png'},
+	tiles = {'e.png'},
 	inventory_image = 'e.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -113,7 +113,7 @@ minetest.register_craft({
 })
 --f
 minetest.register_node('alphabet:f', {
-	tile_images = {'f.png'},
+	tiles = {'f.png'},
 	inventory_image = 'f.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -133,7 +133,7 @@ minetest.register_craft({
 })
 --g
 minetest.register_node('alphabet:g', {
-	tile_images = {'g.png'},
+	tiles = {'g.png'},
 	inventory_image = 'g.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -153,7 +153,7 @@ minetest.register_craft({
 })
 --h
 minetest.register_node('alphabet:h', {
-	tile_images = {'h.png'},
+	tiles = {'h.png'},
 	inventory_image = 'h.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -173,7 +173,7 @@ minetest.register_craft({
 })
 --i
 minetest.register_node('alphabet:i', {
-	tile_images = {'i.png'},
+	tiles = {'i.png'},
 	inventory_image = 'i.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -193,7 +193,7 @@ minetest.register_craft({
 })
 --j
 minetest.register_node('alphabet:j', {
-	tile_images = {'j.png'},
+	tiles = {'j.png'},
 	inventory_image = 'j.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -213,7 +213,7 @@ minetest.register_craft({
 })
 --k
 minetest.register_node('alphabet:k', {
-	tile_images = {'k.png'},
+	tiles = {'k.png'},
 	inventory_image = 'k.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -234,7 +234,7 @@ minetest.register_craft({
 })
 --l
 minetest.register_node('alphabet:l', {
-	tile_images = {'l.png'},
+	tiles = {'l.png'},
 	inventory_image = 'l.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -255,7 +255,7 @@ minetest.register_craft({
 })
 --m
 minetest.register_node('alphabet:m', {
-	tile_images = {'m.png'},
+	tiles = {'m.png'},
 	inventory_image = 'm.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -276,7 +276,7 @@ minetest.register_craft({
 })
 --n
 minetest.register_node('alphabet:n', {
-	tile_images = {'n.png'},
+	tiles = {'n.png'},
 	inventory_image = 'n.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -297,7 +297,7 @@ minetest.register_craft({
 })
 --o
 minetest.register_node('alphabet:o', {
-	tile_images = {'o.png'},
+	tiles = {'o.png'},
 	inventory_image = 'o.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -318,7 +318,7 @@ minetest.register_craft({
 })
 --p
 minetest.register_node('alphabet:p', {
-	tile_images = {'p.png'},
+	tiles = {'p.png'},
 	inventory_image = 'p.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -339,7 +339,7 @@ minetest.register_craft({
 })
 --q
 minetest.register_node('alphabet:q', {
-	tile_images = {'q.png'},
+	tiles = {'q.png'},
 	inventory_image = 'q.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -360,7 +360,7 @@ minetest.register_craft({
 })
 --r
 minetest.register_node('alphabet:r', {
-	tile_images = {'r.png'},
+	tiles = {'r.png'},
 	inventory_image = 'r.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -381,7 +381,7 @@ minetest.register_craft({
 })
 --s
 minetest.register_node('alphabet:s', {
-	tile_images = {'s.png'},
+	tiles = {'s.png'},
 	inventory_image = 's.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -402,7 +402,7 @@ minetest.register_craft({
 })
 --t
 minetest.register_node('alphabet:t', {
-	tile_images = {'t.png'},
+	tiles = {'t.png'},
 	inventory_image = 't.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -423,7 +423,7 @@ minetest.register_craft({
 })
 --u
 minetest.register_node('alphabet:u', {
-	tile_images = {'u.png'},
+	tiles = {'u.png'},
 	inventory_image = 'u.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -444,7 +444,7 @@ minetest.register_craft({
 })
 --v
 minetest.register_node('alphabet:v', {
-	tile_images = {'v.png'},
+	tiles = {'v.png'},
 	inventory_image = 'v.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -465,7 +465,7 @@ minetest.register_craft({
 })
 --w
 minetest.register_node('alphabet:w', {
-	tile_images = {'w.png'},
+	tiles = {'w.png'},
 	inventory_image = 'w.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -486,7 +486,7 @@ minetest.register_craft({
 })
 --x
 minetest.register_node('alphabet:x', {
-	tile_images = {'x.png'},
+	tiles = {'x.png'},
 	inventory_image = 'x.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -507,7 +507,7 @@ minetest.register_craft({
 })
 --y
 minetest.register_node('alphabet:y', {
-	tile_images = {'y.png'},
+	tiles = {'y.png'},
 	inventory_image = 'y.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -528,7 +528,7 @@ minetest.register_craft({
 })
 --z
 minetest.register_node('alphabet:z', {
-	tile_images = {'z.png'},
+	tiles = {'z.png'},
 	inventory_image = 'z.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -550,7 +550,7 @@ minetest.register_craft({
 --Upper case
 -- A
 minetest.register_node('alphabet:A', {
-	tile_images = {'A.png'},
+	tiles = {'A.png'},
 	inventory_image = 'A.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -571,7 +571,7 @@ minetest.register_craft({
 })
 -- B
 minetest.register_node('alphabet:B', {
-	tile_images = {'B.png'},
+	tiles = {'B.png'},
 	inventory_image = 'B.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -592,7 +592,7 @@ minetest.register_craft({
 })
 -- C
 minetest.register_node('alphabet:C', {
-	tile_images = {'C.png'},
+	tiles = {'C.png'},
 	inventory_image = 'C.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -612,7 +612,7 @@ minetest.register_craft({
 })
 --D
 minetest.register_node('alphabet:D', {
-	tile_images = {'D.png'},
+	tiles = {'D.png'},
 	inventory_image = 'D.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -632,7 +632,7 @@ minetest.register_craft({
 })
 --E
 minetest.register_node('alphabet:E', {
-	tile_images = {'E.png'},
+	tiles = {'E.png'},
 	inventory_image = 'E.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -652,7 +652,7 @@ minetest.register_craft({
 })
 --F
 minetest.register_node('alphabet:F', {
-	tile_images = {'F.png'},
+	tiles = {'F.png'},
 	inventory_image = 'F.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -672,7 +672,7 @@ minetest.register_craft({
 })
 --G
 minetest.register_node('alphabet:G', {
-	tile_images = {'G.png'},
+	tiles = {'G.png'},
 	inventory_image = 'G.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -692,7 +692,7 @@ minetest.register_craft({
 })
 --H
 minetest.register_node('alphabet:H', {
-	tile_images = {'H.png'},
+	tiles = {'H.png'},
 	inventory_image = 'H.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -712,7 +712,7 @@ minetest.register_craft({
 })
 --I
 minetest.register_node('alphabet:I', {
-	tile_images = {'I.png'},
+	tiles = {'I.png'},
 	inventory_image = 'I.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -732,7 +732,7 @@ minetest.register_craft({
 })
 --J
 minetest.register_node('alphabet:J', {
-	tile_images = {'J.png'},
+	tiles = {'J.png'},
 	inventory_image = 'J.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -752,7 +752,7 @@ minetest.register_craft({
 })
 --K
 minetest.register_node('alphabet:K', {
-	tile_images = {'K.png'},
+	tiles = {'K.png'},
 	inventory_image = 'K.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -773,7 +773,7 @@ minetest.register_craft({
 })
 --L
 minetest.register_node('alphabet:L', {
-	tile_images = {'L.png'},
+	tiles = {'L.png'},
 	inventory_image = 'L.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -794,7 +794,7 @@ minetest.register_craft({
 })
 --M
 minetest.register_node('alphabet:M', {
-	tile_images = {'M.png'},
+	tiles = {'M.png'},
 	inventory_image = 'M.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -815,7 +815,7 @@ minetest.register_craft({
 })
 --N
 minetest.register_node('alphabet:N', {
-	tile_images = {'N.png'},
+	tiles = {'N.png'},
 	inventory_image = 'N.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -836,7 +836,7 @@ minetest.register_craft({
 })
 --O
 minetest.register_node('alphabet:O', {
-	tile_images = {'O.png'},
+	tiles = {'O.png'},
 	inventory_image = 'O.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -857,7 +857,7 @@ minetest.register_craft({
 })
 --P
 minetest.register_node('alphabet:P', {
-	tile_images = {'P.png'},
+	tiles = {'P.png'},
 	inventory_image = 'P.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -878,7 +878,7 @@ minetest.register_craft({
 })
 --Q
 minetest.register_node('alphabet:Q', {
-	tile_images = {'Q.png'},
+	tiles = {'Q.png'},
 	inventory_image = 'Q.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -899,7 +899,7 @@ minetest.register_craft({
 })
 --R
 minetest.register_node('alphabet:R', {
-	tile_images = {'R.png'},
+	tiles = {'R.png'},
 	inventory_image = 'R.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -920,7 +920,7 @@ minetest.register_craft({
 })
 --S
 minetest.register_node('alphabet:S', {
-	tile_images = {'S.png'},
+	tiles = {'S.png'},
 	inventory_image = 'S.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -941,7 +941,7 @@ minetest.register_craft({
 })
 --T
 minetest.register_node('alphabet:T', {
-	tile_images = {'T.png'},
+	tiles = {'T.png'},
 	inventory_image = 'T.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -963,7 +963,7 @@ minetest.register_craft({
 })
 --U
 minetest.register_node('alphabet:U', {
-	tile_images = {'U.png'},
+	tiles = {'U.png'},
 	inventory_image = 'U.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -984,7 +984,7 @@ minetest.register_craft({
 })
 --V
 minetest.register_node('alphabet:V', {
-	tile_images = {'V.png'},
+	tiles = {'V.png'},
 	inventory_image = 'V.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1005,7 +1005,7 @@ minetest.register_craft({
 })
 --W
 minetest.register_node('alphabet:W', {
-	tile_images = {'W.png'},
+	tiles = {'W.png'},
 	inventory_image = 'W.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1026,7 +1026,7 @@ minetest.register_craft({
 })
 --X
 minetest.register_node('alphabet:X', {
-	tile_images = {'X.png'},
+	tiles = {'X.png'},
 	inventory_image = 'X.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1047,7 +1047,7 @@ minetest.register_craft({
 })
 --y
 minetest.register_node('alphabet:Y', {
-	tile_images = {'Y.png'},
+	tiles = {'Y.png'},
 	inventory_image = 'Y.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1068,7 +1068,7 @@ minetest.register_craft({
 })
 --Z
 minetest.register_node('alphabet:Z', {
-	tile_images = {'Z.png'},
+	tiles = {'Z.png'},
 	inventory_image = 'Z.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1090,7 +1090,7 @@ minetest.register_craft({
 
 --space
 minetest.register_node('alphabet:space', {
-	tile_images = {'space.png'},
+	tiles = {'space.png'},
 	inventory_image = 'space.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1112,7 +1112,7 @@ minetest.register_craft({
 --numbers
 --1
 minetest.register_node('alphabet:1', {
-	tile_images = {'1.png'},
+	tiles = {'1.png'},
 	inventory_image = '1.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1134,7 +1134,7 @@ minetest.register_craft({
 })
 -- 2
 minetest.register_node('alphabet:2', {
-	tile_images = {'2.png'},
+	tiles = {'2.png'},
 	inventory_image = '2.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1155,7 +1155,7 @@ minetest.register_craft({
 })
 -- 3
 minetest.register_node('alphabet:3', {
-	tile_images = {'3.png'},
+	tiles = {'3.png'},
 	inventory_image = '3.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1177,7 +1177,7 @@ minetest.register_craft({
 })
 --4
 minetest.register_node('alphabet:4', {
-	tile_images = {'4.png'},
+	tiles = {'4.png'},
 	inventory_image = '4.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1198,7 +1198,7 @@ minetest.register_craft({
 })
 --5
 minetest.register_node('alphabet:5', {
-	tile_images = {'5.png'},
+	tiles = {'5.png'},
 	inventory_image = '5.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1219,7 +1219,7 @@ minetest.register_craft({
 })
 --6
 minetest.register_node('alphabet:6', {
-	tile_images = {'6.png'},
+	tiles = {'6.png'},
 	inventory_image = '6.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1240,7 +1240,7 @@ minetest.register_craft({
 })
 --7
 minetest.register_node('alphabet:7', {
-	tile_images = {'7.png'},
+	tiles = {'7.png'},
 	inventory_image = '7.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1261,7 +1261,7 @@ minetest.register_craft({
 })
 --8
 minetest.register_node('alphabet:8', {
-	tile_images = {'8.png'},
+	tiles = {'8.png'},
 	inventory_image = '8.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1282,7 +1282,7 @@ minetest.register_craft({
 })
 --9
 minetest.register_node('alphabet:9', {
-	tile_images = {'9.png'},
+	tiles = {'9.png'},
 	inventory_image = '9.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1303,7 +1303,7 @@ minetest.register_craft({
 })
 --0
 minetest.register_node('alphabet:0', {
-	tile_images = {'0.png'},
+	tiles = {'0.png'},
 	inventory_image = '0.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1325,7 +1325,7 @@ minetest.register_craft({
 --Symbols
 --s1 !
 minetest.register_node('alphabet:s1', {
-	tile_images = {'s1.png'},
+	tiles = {'s1.png'},
 	inventory_image = 's1.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1346,7 +1346,7 @@ minetest.register_craft({
 })
 -- s2 @
 minetest.register_node('alphabet:s2', {
-	tile_images = {'s2.png'},
+	tiles = {'s2.png'},
 	inventory_image = 's2.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1367,7 +1367,7 @@ minetest.register_craft({
 })
 -- s3 #
 minetest.register_node('alphabet:s3', {
-	tile_images = {'s3.png'},
+	tiles = {'s3.png'},
 	inventory_image = 's3.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1389,7 +1389,7 @@ minetest.register_craft({
 })
 --s4 $
 minetest.register_node('alphabet:s4', {
-	tile_images = {'s4.png'},
+	tiles = {'s4.png'},
 	inventory_image = 's4.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1410,7 +1410,7 @@ minetest.register_craft({
 })
 --s5 %
 minetest.register_node('alphabet:s5', {
-	tile_images = {'s5.png'},
+	tiles = {'s5.png'},
 	inventory_image = 's5.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1431,7 +1431,7 @@ minetest.register_craft({
 })
 --s6 ^
 minetest.register_node('alphabet:s6', {
-	tile_images = {'s6.png'},
+	tiles = {'s6.png'},
 	inventory_image = 's6.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1452,7 +1452,7 @@ minetest.register_craft({
 })
 --s7 &
 minetest.register_node('alphabet:s7', {
-	tile_images = {'s7.png'},
+	tiles = {'s7.png'},
 	inventory_image = 's7.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1473,7 +1473,7 @@ minetest.register_craft({
 })
 --s8 *
 minetest.register_node('alphabet:s8', {
-	tile_images = {'s8.png'},
+	tiles = {'s8.png'},
 	inventory_image = 's8.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1494,7 +1494,7 @@ minetest.register_craft({
 })
 --s9 (
 minetest.register_node('alphabet:s9', {
-	tile_images = {'s9.png'},
+	tiles = {'s9.png'},
 	inventory_image = 's9.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1515,7 +1515,7 @@ minetest.register_craft({
 })
 --s0 )
 minetest.register_node('alphabet:s0', {
-	tile_images = {'s0.png'},
+	tiles = {'s0.png'},
 	inventory_image = 's0.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1536,7 +1536,7 @@ minetest.register_craft({
 })
 --apos ' (craft like K, but with cobble)
 minetest.register_node('alphabet:apos', {
-	tile_images = {'apos.png'},
+	tiles = {'apos.png'},
 	inventory_image = 'apos.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1557,7 +1557,7 @@ minetest.register_craft({
 })
 --bslash \ (craft like L, but with cobble)
 minetest.register_node('alphabet:bslash', {
-	tile_images = {'bslash.png'},
+	tiles = {'bslash.png'},
 	inventory_image = 'bslash.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1578,7 +1578,7 @@ minetest.register_craft({
 })
 --colon : (craft like M, but with cobble)
 minetest.register_node('alphabet:colon', {
-	tile_images = {'colon.png'},
+	tiles = {'colon.png'},
 	inventory_image = 'colon.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1599,7 +1599,7 @@ minetest.register_craft({
 })
 --comma , (craft like N, but with cobble)
 minetest.register_node('alphabet:comma', {
-	tile_images = {'comma.png'},
+	tiles = {'comma.png'},
 	inventory_image = 'comma.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1620,7 +1620,7 @@ minetest.register_craft({
 })
 --equal = (craft like O (not zero), but with cobble)
 minetest.register_node('alphabet:equal', {
-	tile_images = {'equal.png'},
+	tiles = {'equal.png'},
 	inventory_image = 'equal.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1641,7 +1641,7 @@ minetest.register_craft({
 })
 --minus - (craft like P, but with cobble)
 minetest.register_node('alphabet:minus', {
-	tile_images = {'minus.png'},
+	tiles = {'minus.png'},
 	inventory_image = 'minus.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1662,7 +1662,7 @@ minetest.register_craft({
 })
 --plus + (craft like Q, but with cobble)
 minetest.register_node('alphabet:plus', {
-	tile_images = {'plus.png'},
+	tiles = {'plus.png'},
 	inventory_image = 'plus.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1683,7 +1683,7 @@ minetest.register_craft({
 })
 --quest ? (craft like R, but with cobble)
 minetest.register_node('alphabet:quest', {
-	tile_images = {'quest.png'},
+	tiles = {'quest.png'},
 	inventory_image = 'quest.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1704,7 +1704,7 @@ minetest.register_craft({
 })
 --quo " (craft like S, but with cobble)
 minetest.register_node('alphabet:quo', {
-	tile_images = {'quo.png'},
+	tiles = {'quo.png'},
 	inventory_image = 'quo.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1725,7 +1725,7 @@ minetest.register_craft({
 })
 --slash / (craft like T, but with cobble)
 minetest.register_node('alphabet:slash', {
-	tile_images = {'slash.png'},
+	tiles = {'slash.png'},
 	inventory_image = 'slash.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1746,7 +1746,7 @@ minetest.register_craft({
 })
 --under " (craft like U, but with cobble)
 minetest.register_node('alphabet:under', {
-	tile_images = {'under.png'},
+	tiles = {'under.png'},
 	inventory_image = 'under.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
@@ -1767,7 +1767,7 @@ minetest.register_craft({
 })
 --dot . (craft like V, but with cobble)
 minetest.register_node('alphabet:dot', {
-	tile_images = {'dot.png'},
+	tiles = {'dot.png'},
 	inventory_image = 'dot.png',
 	sunlight_propagates = true,
 	paramtype = 'light',
